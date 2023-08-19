@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shoping</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-container">
+           <a href="index.html">
+            <img src="./imgs/v.png" class="logonav">
+           </a>
+
+           <div class="nav-profile">
+            <p class="nav-profile-name">BUY</p>
+            <div class="nav-profile-cart">
+                <i class="fas fa-cart-shopping"></i>
+                <div class="cartcon">
+                    0
+                </div>
+            </div> 
+           
+           </div> 
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <div class="sidebar">
+            <input type="text" class="sidebar-search" placeholder="Search something...">
+        <a href="#" class="sidebar-items">
+            Menu 1
+        </a>
+        <a href="#" class="sidebar-items">
+            Menu 2
+        </a>
+    
+    
+        </div>
+       <div class="product">
+        <div class="product-items">
+       <img class="product-img" src="https://images.unsplash.com/photo-1581655353564-df123a1eb820?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="">
+       <p style="font-size: 1.2vw;">White Shirt</p>
+        <p style="font-size: 1vw;">389 THB</p>
+                               
+  </div>
+  <div class="product-items">
+    <img class="product-img" src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="">
+    <p style="font-size: 1.2vw;">Black Shirt</p>
+     <p style="font-size: 1vw;">599 THB</p>
+                                  
+</div>
+
+<div class="product-items">
+    <img class="product-img" src="https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=812&q=80" alt="">
+    <p style="font-size: 1.2vw;">Yellow Shoes</p>
+     <p style="font-size: 1vw;">779 THB</p>
+                                                    
+</div>
+
+<div class="product-items">
+    <img class="product-img" src="https://images.unsplash.com/photo-1595341888016-a392ef81b7de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=879&q=80" alt="">
+    <p style="font-size: 1.2vw;">KSWISS Shoes</p>
+     <p style="font-size: 1vw;">899 THB</p>
+                                                 
+</div>
+
+    <div class="modal" style="display: none;">
+        <div class="modal-bg"></div>
+        <div class="modal-page">
+            <h2>Detail</h2>
+            <br>
+            <div class="modaldesc-content">
+                <img class="modaldesc-img" src="https://images.unsplash.com/photo-1525092029632-cb75fe5dd776?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" alt="">
+                <div class="modaldesc-detail">
+                   <p style="font-size: 1.5vw;">product name</p>
+                   <p style="font-size: 1.2vw;">799 THB</p>
+                   <br>
+                   <p style="color: rgb(0, 0, 0);">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel blanditiis provident nobis dolore deleniti dignissimos! Facilis possimus ab saepe exercitationem?</p>
+                    <br>
+                    <div class="bint-control">
+                        <button class="btn">
+                            Close
+                        </button>
+                        <button class="btn btn-buy">
+                            Add to cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal"style="display: none;">
+        <div class="modal-bg"></div>
+        <div class="modal-page">
+            <h2>My cart</h2>
+            <br>
+            <div class="cartlist">
+                <div class="classlist-items">
+                    <div class="cartlist-left">
+                    <img src="https://images.unsplash.com/photo-1525092029632-cb75fe5dd776?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" alt="">
+                    <div class="cartlist-detail">
+                        <p style="font-size: 1.5vw;">adidas Air zoom</p>
+                        <p style="font-size: 1.2vw;">799 THB</p>
+                    </div>
+                    </div>
+                    <div class="cartlist-right">
+                        <p class="btnc">-</p>
+                        <p style="margin: 0 20px;">1</p>
+                        <p class="btnc">+</p>
+                    </div>
+                </div>
+
+                <div class="cartlist">
+                    <div class="classlist-items">
+                        <div class="cartlist-left">
+                        <img src="https://images.unsplash.com/photo-1599839614778-a0ee8a16f2a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="">
+                        <div class="cartlist-detail">
+                            <p style="font-size: 1.5vw;">ESSENTIALS WARM-UP</p>
+                            <p style="font-size: 1.2vw;">550 THB</p>
+                        </div>
+                        </div>
+                        <div class="cartlist-right">
+                            <p class="btnc">-</p>
+                            <p style="margin: 0 20px;">1</p>
+                            <p class="btnc">+</p>
+                        </div>
+                    </div>
+
+                    <div class="cartlist">
+                        <div class="classlist-items">
+                            <div class="cartlist-left">
+                            <img src="https://images.unsplash.com/photo-1580902394857-0b40c534dc71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="">
+                            <div class="cartlist-detail">
+                                <p style="font-size: 1.5vw;">adidas Jordan</p>
+                                <p style="font-size: 1.2vw;">980 THB</p>
+                            </div>
+                            </div>
+                            <div class="cartlist-right">
+                                <p class="btnc">-</p>
+                                <p style="margin: 0 20px;">1</p>
+                                <p class="btnc">+</p>
+                            </div>
+                        </div>
+
+                        <div class="cartlist">
+                            <div class="classlist-items">
+                                <div class="cartlist-left">
+                                <img src="https://images.unsplash.com/photo-1511316853582-7c4138ceef87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="">
+                                <div class="cartlist-detail">
+                                    <p style="font-size: 1.5vw;">ALL COURT 3.0</p>
+                                    <p style="font-size: 1.2vw;">750 THB</p>
+                                </div>
+                                </div>
+                                <div class="cartlist-right">
+                                    <p class="btnc">-</p>
+                                    <p style="margin: 0 20px;">1</p>
+                                    <p class="btnc">+</p>
+                                </div>
+                                <div class="btn-control">
+                                    <button class="btn">
+                                        Cancel
+                                    </button>
+                                    <button class="btn btn-buy">
+                                        Buy
+                                    </button>
+                                </div>
+
+                                </div>
+                            </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
